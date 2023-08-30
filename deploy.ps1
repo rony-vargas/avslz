@@ -14,3 +14,6 @@ $inputObject = @{
 }
 
 New-AzSubscriptionDeployment @inputObject -WhatIf
+
+
+# Deploy Azure Subnets in Hub Virtual Network
