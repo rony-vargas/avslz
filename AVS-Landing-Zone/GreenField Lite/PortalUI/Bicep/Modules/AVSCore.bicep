@@ -18,7 +18,6 @@ module PrivateCloud 'AVSCore/PrivateCloud.bicep' = if (DeployPrivateCloud) {
   scope: PrivateCloudResourceGroup
   name: '${deployment().name}-PrivateCloud'
   params: {
-    Location: Location
     PrivateCloudName : PrivateCloudName
     NetworkBlock: PrivateCloudAddressSpace
     SKUName: PrivateCloudSKU

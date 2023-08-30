@@ -1,7 +1,7 @@
 targetScope = 'subscription'
 
 @description('Optional: The location the private cloud should be deployed to, by default this will be the location of the deployment')
-param Location string = deployment().location
+param Location string = 'eastus'
 
 //Private Cloud
 @description('Set this to false if the Private Cloud already exists')

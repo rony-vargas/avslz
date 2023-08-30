@@ -3,21 +3,22 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "PrivateCloudName": {
-            "value": "SJLITE-SDDC"
+            "value": "CAF-SDDC-PP"
+        },
+        "PrivateCloudResourceGroupName": {
+            "value": "RG-CAF-SDDC-PP"
         },
         "PrivateCloudAddressSpace": {
             "value": "10.55.0.0/22"
         },
         "PrivateCloudSKU": {
-            "value": "AV36P"
+            "value": "AV36PT"
         },
         "PrivateCloudHostCount": {
             "value": 3
         },
         "AlertEmails": {
-            "value": [
-                "example@microsoft.com"
-            ]
+            "value": "rvargas@caf-con.com"
         }
     }
 }

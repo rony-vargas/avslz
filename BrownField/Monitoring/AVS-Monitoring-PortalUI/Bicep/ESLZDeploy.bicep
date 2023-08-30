@@ -6,7 +6,7 @@ targetScope = 'subscription'
 param Prefix string = ''
 
 @description('Optional: The location the private cloud should be deployed to, by default this will be the location of the deployment')
-param Location string = deployment().location
+param Location string = 'eastus' //deployment().location
 
 // Monitoring Module Parameters
 param DeployMonitoring bool = false
